@@ -1,0 +1,28 @@
+.app-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .app-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .app-container {
+    padding-left: 7vw;
+    padding-right: 7vw;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .app-container {
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+}
